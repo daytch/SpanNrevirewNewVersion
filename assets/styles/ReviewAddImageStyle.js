@@ -1,0 +1,181 @@
+import {StyleSheet} from 'react-native';
+import {
+  COLORS,
+  FONTS,
+  SIZES,
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp,
+} from '../constants';
+
+const ReviewAddImageStyle = StyleSheet.create({
+  SafeArea: {
+    backgroundColor: COLORS.primary,
+  },
+  ContainerImage: {
+    flex: 1,
+  },
+  Container: {
+    backgroundColor: COLORS.primary,
+    padding: SIZES.padding4,
+    flexDirection: 'row',
+  },
+  Contents: {
+    flex: 1,
+    flexWrap: 'wrap',
+    flexDirection: 'column',
+    padding: SIZES.padding4,
+    justifyContent: 'flex-start',
+  },
+  ImageBack: {
+    width: 25,
+    height: 24,
+  },
+  Label: {
+    ...FONTS.h3,
+    color: COLORS.white,
+    marginTop: 2,
+    marginLeft: 6,
+  },
+  ContainerTitle: {
+    flexDirection: 'row',
+  },
+  ImageTitle: {
+    width: 65,
+    height: 65,
+    alignSelf: 'stretch',
+  },
+  Title: {
+    ...FONTS.bodyMedium2,
+    marginLeft: 10,
+  },
+  Category: {
+    ...FONTS.bodyRegular5,
+    color: COLORS.grayLine,
+    marginLeft: 10,
+  },
+  ContainerImages: {
+    marginTop: 3,
+    flexDirection: 'column',
+  },
+  TextUpload: {
+    ...FONTS.body3,
+    color: COLORS.black,
+    fontSize: 14,
+  },
+  ImageBox: {
+    borderStyle: 'dashed',
+    borderWidth: 1,
+    borderColor: COLORS.grayLine,
+    height: hp('18%'),
+  },
+  FlatWrapper: {marginTop: 2},
+  FlatSeparator: {
+    height: 5,
+    width: '100%',
+    backgroundColor: '#CEDCCE',
+  },
+  FlatContainer: {margin: 5},
+  ImageUpload: {
+    width: 65,
+    height: 65,
+    alignSelf: 'stretch',
+    margin: 5,
+  },
+  Close1: {
+    width: 15,
+    height: 15,
+    position: 'absolute',
+    marginRight: wp('50%'),
+    marginTop: wp('14%'),
+    alignSelf: 'flex-end',
+    zIndex: 9,
+  },
+  Close2: {
+    width: 15,
+    height: 15,
+    position: 'absolute',
+    marginLeft: wp('32%'),
+    marginTop: wp('14%'),
+    alignSelf: 'flex-end',
+    zIndex: 9,
+  },
+  Close3: {
+    width: 15,
+    height: 15,
+    position: 'absolute',
+    marginLeft: wp('50%'),
+    marginTop: wp('14%'),
+    alignSelf: 'flex-end',
+    zIndex: 9,
+  },
+  Close4: {
+    width: 15,
+    height: 15,
+    position: 'absolute',
+    marginLeft: wp('68%'),
+    marginTop: wp('14%'),
+    alignSelf: 'flex-end',
+    zIndex: 9,
+  },
+  Close5: {
+    width: 15,
+    height: 15,
+    position: 'absolute',
+    marginLeft: wp('86%'),
+    marginTop: wp('14%'),
+    alignSelf: 'flex-end',
+    zIndex: 9,
+  },
+  EmptyImage: {
+    borderStyle: 'dashed',
+    borderWidth: 1,
+    borderColor: COLORS.grayLine,
+    width: 65,
+    height: 65,
+    alignSelf: 'stretch',
+    margin: 5,
+  },
+  CamPlus: {
+    // alignItems: 'center',
+    alignSelf: 'center',
+    // alignContent: 'center',
+    width: 30,
+    height: 25,
+    marginTop: 21,
+    marginLeft: 9,
+  },
+  Hide: {display: 'none'},
+  Show: {display: 'flex'},
+  CheckBox: {
+    marginTop: wp('2%'),
+    // marginLeft: (SIZES.width * 5) / 100,
+    // width: 20,
+    // height: 20,
+    // transform: [{scaleX: 0.8}, {scaleY: 0.8}],
+  },
+  ContainerAnonim: {
+    flexDirection: 'row',
+  },
+  TextAnonim: {
+    ...FONTS.body3,
+    color: COLORS.primary,
+    alignSelf: 'center',
+    marginLeft: 5,
+    marginTop: 7,
+  },
+  ButtonSubmit: {
+    padding: 6,
+    width: SIZES.width - SIZES.width * 0.5,
+    alignItems: 'center',
+    borderRadius: 6,
+    backgroundColor: COLORS.primary,
+    alignSelf: 'center',
+    marginTop: wp('15%'),
+  },
+  TextSubmit: {
+    ...FONTS.bodyBold3,
+    color: COLORS.white,
+  },
+});
+
+export default ReviewAddImageStyle;

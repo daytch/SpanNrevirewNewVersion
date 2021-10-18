@@ -1,0 +1,1278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* SnapNReviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SnapNReviewTests.m */; };
+		03B4D771D288459FAA737060 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5776997DCBC4456689E046B2 /* Poppins-MediumItalic.ttf */; };
+		089F95A01AA149F6B6B38F4A /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 600EF5035E0A4EE9B412266E /* Poppins-SemiBold.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* SnapNReviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SnapNReviewTests.m */; };
+		34B5D953AE524AB49C9C8C9F /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C88E3768C25F4C23BF94357C /* Poppins-BlackItalic.ttf */; };
+		4D49B1640FCD486897208A8F /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 187944D916F6410AB470EAD2 /* Poppins-BoldItalic.ttf */; };
+		525E01832719CB21003FA393 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 525E01822719CB21003FA393 /* main.jsbundle */; };
+		525E01852719CB2A003FA393 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 525E01842719CB2A003FA393 /* main.jsbundle */; };
+		52EFEAA126A71B5C0056E99B /* Myriad Pro Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52EFEA9E26A71B5C0056E99B /* Myriad Pro Semibold.ttf */; };
+		5650893C4D29A7A56D99F897 /* libPods-SnapNReview.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EF1BFF4275C11C2ACE3BAB /* libPods-SnapNReview.a */; };
+		6A16556A5D85406D8CE0FFF3 /* Myriad Pro Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5F24CF59AFD14A0EB2984603 /* Myriad Pro Light.otf */; };
+		791264D25047D7E0FDFB2319 /* libPods-SnapNReview-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB2BF05438FD387B3EB2443 /* libPods-SnapNReview-tvOSTests.a */; };
+		79258B6394904FE0BD774793 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AACA826DCD37499B973D0353 /* Poppins-ExtraBoldItalic.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		835157F8F1C14B68A1740FC1 /* Myriad Pro Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA30D223F9764B8DAA15D8C5 /* Myriad Pro Regular.ttf */; };
+		8ED7EAB9565C43EB93E6AAC7 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BECA12B90CC54338B2213762 /* Poppins-Bold.ttf */; };
+		8F820CA9273A48D3B1C038A3 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36B3FCBF00E44C90AA8134C1 /* Poppins-Regular.ttf */; };
+		926ED66F25DE4926872F9BDB /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92221F76A3B54BB7B12FDD2F /* Poppins-ThinItalic.ttf */; };
+		953859B7BC0F4271AF526700 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8946FB449FEC4864A3FED825 /* Poppins-SemiBoldItalic.ttf */; };
+		9667CCFD7888402889C5D37B /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87C3D91E398A43E18C055A6F /* Poppins-Light.ttf */; };
+		A7C568FD39A74B06B4C800B1 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A2FAF76360543B894B72BF4 /* Poppins-LightItalic.ttf */; };
+		A86D04A05206EFC587C41984 /* libPods-SnapNReview-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57754657232932953C1527A0 /* libPods-SnapNReview-tvOS.a */; };
+		AABD87D42C304238AD5CCE4F /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C355847637B44BC68CC39B67 /* Poppins-Italic.ttf */; };
+		C3EC0B973C564A7EB8822E4E /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7990C361BB974FEEBA33555F /* Poppins-ExtraLightItalic.ttf */; };
+		D92955FE9A904531A17A6208 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D4DFBDEA6F747CAA286EC51 /* Poppins-ExtraLight.ttf */; };
+		DEEFABB6D3224A4EBC10C2D0 /* Myriad Pro Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = BE9E81560CC24617B3A50999 /* Myriad Pro Black.otf */; };
+		E46BD1927AB144A1AFF49003 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B63B52AFF6740C69AD9FA90 /* Poppins-ExtraBold.ttf */; };
+		E9870374F73942389F4273B9 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6430C0C5D3F4A0591469C86 /* Poppins-Black.ttf */; };
+		EB6B37A945A1DF0A87964ACE /* libPods-SnapNReview-SnapNReviewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17421E2659E0BCE8896EA59E /* libPods-SnapNReview-SnapNReviewTests.a */; };
+		F24196C755D045AFA6272736 /* Myriad Pro Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5C0DD1F61634A9FA2AFE3DA /* Myriad Pro Bold.ttf */; };
+		F4271325AEF5423A9B04497E /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44C0840EDB9E48F0B246F657 /* Poppins-Thin.ttf */; };
+		F5F32B3257EF44FAA12E5C3B /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61A4032A61CF40A787087E3D /* Poppins-Medium.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = SnapNReview;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "SnapNReview-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* SnapNReviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapNReviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* SnapNReviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapNReviewTests.m; sourceTree = "<group>"; };
+		084D6C834DAF1B73C82BE081 /* Pods-SnapNReview-SnapNReviewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapNReview-SnapNReviewTests.release.xcconfig"; path = "Target Support Files/Pods-SnapNReview-SnapNReviewTests/Pods-SnapNReview-SnapNReviewTests.release.xcconfig"; sourceTree = "<group>"; };
+		0B63B52AFF6740C69AD9FA90 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* SnapNReview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapNReview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SnapNReview/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SnapNReview/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SnapNReview/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SnapNReview/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SnapNReview/main.m; sourceTree = "<group>"; };
+		17421E2659E0BCE8896EA59E /* libPods-SnapNReview-SnapNReviewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SnapNReview-SnapNReviewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		187944D916F6410AB470EAD2 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		26EF1BFF4275C11C2ACE3BAB /* libPods-SnapNReview.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SnapNReview.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2FAF76360543B894B72BF4 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* SnapNReview-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SnapNReview-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* SnapNReview-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SnapNReview-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36B3FCBF00E44C90AA8134C1 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		3B3E8F65DDA1F6D86C704C41 /* Pods-SnapNReview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapNReview.release.xcconfig"; path = "Target Support Files/Pods-SnapNReview/Pods-SnapNReview.release.xcconfig"; sourceTree = "<group>"; };
+		3D4DFBDEA6F747CAA286EC51 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		44C0840EDB9E48F0B246F657 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		4F929738981B17A816161579 /* Pods-SnapNReview-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapNReview-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-SnapNReview-tvOSTests/Pods-SnapNReview-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		525E01822719CB21003FA393 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		525E01842719CB2A003FA393 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		525E018A2719DBB6003FA393 /* sport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sport.png; sourceTree = "<group>"; };
+		525E018B2719DBB6003FA393 /* user_not_found.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = user_not_found.svg; sourceTree = "<group>"; };
+		525E018C2719DBB6003FA393 /* pencil-edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pencil-edit.png"; sourceTree = "<group>"; };
+		525E018D2719DBB6003FA393 /* question_answered_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = question_answered_a.png; sourceTree = "<group>"; };
+		525E018E2719DBB6003FA393 /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.png; sourceTree = "<group>"; };
+		525E018F2719DBB6003FA393 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		525E01902719DBB6003FA393 /* google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google.png; sourceTree = "<group>"; };
+		525E01912719DBB6003FA393 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		525E01922719DBB6003FA393 /* star-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-white.png"; sourceTree = "<group>"; };
+		525E01932719DBB6003FA393 /* x-sign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x-sign.png"; sourceTree = "<group>"; };
+		525E01942719DBB6003FA393 /* bell-yellow-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bell-yellow-selected.png"; sourceTree = "<group>"; };
+		525E01952719DBB6003FA393 /* cam-plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cam-plus.png"; sourceTree = "<group>"; };
+		525E01962719DBB6003FA393 /* loop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loop.png; sourceTree = "<group>"; };
+		525E01972719DBB7003FA393 /* follower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = follower.png; sourceTree = "<group>"; };
+		525E01982719DBB7003FA393 /* humburger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = humburger.png; sourceTree = "<group>"; };
+		525E01992719DBB7003FA393 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		525E019A2719DBB7003FA393 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		525E019B2719DBB7003FA393 /* bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bell.png; sourceTree = "<group>"; };
+		525E019C2719DBB7003FA393 /* cam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cam.png; sourceTree = "<group>"; };
+		525E019D2719DBB7003FA393 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		525E019E2719DBB7003FA393 /* cam-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cam-red.png"; sourceTree = "<group>"; };
+		525E019F2719DBB7003FA393 /* ask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ask.png; sourceTree = "<group>"; };
+		525E01A02719DBB7003FA393 /* sort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sort.png; sourceTree = "<group>"; };
+		525E01A12719DBB7003FA393 /* arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right.png"; sourceTree = "<group>"; };
+		525E01A22719DBB7003FA393 /* eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye.png; sourceTree = "<group>"; };
+		525E01A32719DBB7003FA393 /* question_post.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = question_post.png; sourceTree = "<group>"; };
+		525E01A42719DBB7003FA393 /* following.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = following.png; sourceTree = "<group>"; };
+		525E01A52719DBB7003FA393 /* arrow-up-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-up-white.png"; sourceTree = "<group>"; };
+		525E01A62719DBB7003FA393 /* question_answered.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = question_answered.png; sourceTree = "<group>"; };
+		525E01A72719DBB7003FA393 /* art.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = art.png; sourceTree = "<group>"; };
+		525E01A82719DBB7003FA393 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		525E01A92719DBB7003FA393 /* product_review.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product_review.png; sourceTree = "<group>"; };
+		525E01AA2719DBB7003FA393 /* electronic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = electronic.png; sourceTree = "<group>"; };
+		525E01AB2719DBB7003FA393 /* question_post_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = question_post_a.png; sourceTree = "<group>"; };
+		525E01AC2719DBB7003FA393 /* product_review_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product_review_a.png; sourceTree = "<group>"; };
+		525E01AD2719DBB7003FA393 /* user_plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_plus.png; sourceTree = "<group>"; };
+		525E01AE2719DBB7003FA393 /* user-gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-gray.png"; sourceTree = "<group>"; };
+		525E01AF2719DBB7003FA393 /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more.png; sourceTree = "<group>"; };
+		525E01B02719DBB7003FA393 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		525E01B12719DBB7003FA393 /* bell-yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bell-yellow.png"; sourceTree = "<group>"; };
+		525E01B22719DBB7003FA393 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
+		525E01B32719DBB8003FA393 /* healthcare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = healthcare.png; sourceTree = "<group>"; };
+		525E01B42719DBB8003FA393 /* following_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = following_a.png; sourceTree = "<group>"; };
+		525E01B52719DBB8003FA393 /* love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love.png; sourceTree = "<group>"; };
+		525E01B62719DBB8003FA393 /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
+		525E01B72719DBB8003FA393 /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
+		525E01B82719DBB8003FA393 /* keyhole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyhole.png; sourceTree = "<group>"; };
+		525E01B92719DBB8003FA393 /* love-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "love-white.png"; sourceTree = "<group>"; };
+		525E01BA2719DBB8003FA393 /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		525E01BB2719DBB8003FA393 /* x_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x_red.png; sourceTree = "<group>"; };
+		525E01BC2719DBB8003FA393 /* product_post_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product_post_a.png; sourceTree = "<group>"; };
+		525E01BD2719DBB8003FA393 /* product_post.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product_post.png; sourceTree = "<group>"; };
+		525E01BE2719DBB8003FA393 /* forward-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward-white.png"; sourceTree = "<group>"; };
+		525E01BF2719DBB8003FA393 /* sort-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sort-white.png"; sourceTree = "<group>"; };
+		525E01C02719DBB8003FA393 /* gadget.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gadget.png; sourceTree = "<group>"; };
+		525E01C12719DBB8003FA393 /* movie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movie.png; sourceTree = "<group>"; };
+		525E01C22719DBB8003FA393 /* follower_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = follower_a.png; sourceTree = "<group>"; };
+		525E01C32719DBB8003FA393 /* arrow-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-up.png"; sourceTree = "<group>"; };
+		525E01C42719DBD4003FA393 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		525E01C52719DBD4003FA393 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		525E01C62719DBD5003FA393 /* SnapNReview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SnapNReview.png; sourceTree = "<group>"; };
+		525E01C72719DBDC003FA393 /* user2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user2.jpeg; sourceTree = "<group>"; };
+		525E01C82719DBDC003FA393 /* kamera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kamera.png; sourceTree = "<group>"; };
+		525E01C92719DBDC003FA393 /* ps5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ps5.jpeg; sourceTree = "<group>"; };
+		525E01CA2719DBDC003FA393 /* ip12pro.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ip12pro.jpeg; sourceTree = "<group>"; };
+		525E01CB2719DBDC003FA393 /* microwave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microwave.png; sourceTree = "<group>"; };
+		525E01CC2719DBDC003FA393 /* ip12.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ip12.jpeg; sourceTree = "<group>"; };
+		525E01CD2719DBDC003FA393 /* smartwatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smartwatch.png; sourceTree = "<group>"; };
+		525E01CE2719DBDC003FA393 /* stick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stick.png; sourceTree = "<group>"; };
+		525E01CF2719DBDC003FA393 /* laptop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laptop.png; sourceTree = "<group>"; };
+		525E01D02719DBDC003FA393 /* user1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user1.jpeg; sourceTree = "<group>"; };
+		525E01D12719DBDC003FA393 /* ip12pro1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ip12pro1.jpeg; sourceTree = "<group>"; };
+		525E01D22719DBDC003FA393 /* user3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user3.jpeg; sourceTree = "<group>"; };
+		52CF6A602621DD6F0066DECB /* libFBSDKLoginKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFBSDKLoginKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		52CF6A662621DD7F0066DECB /* libFBSDKCoreKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFBSDKCoreKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		52CF6A682621DD840066DECB /* libFBSDKShareKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFBSDKShareKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EFEA9E26A71B5C0056E99B /* Myriad Pro Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Myriad Pro Semibold.ttf"; path = "../assets/fonts/Myriad Pro Semibold.ttf"; sourceTree = "<group>"; };
+		55BAD5004A2F4F66BC189AE0 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
+		57754657232932953C1527A0 /* libPods-SnapNReview-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SnapNReview-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5776997DCBC4456689E046B2 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		5F24CF59AFD14A0EB2984603 /* Myriad Pro Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; path = "Myriad Pro Light.otf"; sourceTree = "<group>"; };
+		600EF5035E0A4EE9B412266E /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		61A4032A61CF40A787087E3D /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		7990C361BB974FEEBA33555F /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SnapNReview/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87C3D91E398A43E18C055A6F /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		8946FB449FEC4864A3FED825 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		8F6D807F19681F943D10744D /* Pods-SnapNReview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapNReview.debug.xcconfig"; path = "Target Support Files/Pods-SnapNReview/Pods-SnapNReview.debug.xcconfig"; sourceTree = "<group>"; };
+		92221F76A3B54BB7B12FDD2F /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		A45CD29A494E539763E7B8F8 /* Pods-SnapNReview-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapNReview-tvOS.release.xcconfig"; path = "Target Support Files/Pods-SnapNReview-tvOS/Pods-SnapNReview-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		AACA826DCD37499B973D0353 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		B13D669A142B79F9575DCD55 /* Pods-SnapNReview-SnapNReviewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapNReview-SnapNReviewTests.debug.xcconfig"; path = "Target Support Files/Pods-SnapNReview-SnapNReviewTests/Pods-SnapNReview-SnapNReviewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6430C0C5D3F4A0591469C86 /* Poppins-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		BE9E81560CC24617B3A50999 /* Myriad Pro Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; path = "Myriad Pro Black.otf"; sourceTree = "<group>"; };
+		BEB2BF05438FD387B3EB2443 /* libPods-SnapNReview-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SnapNReview-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BECA12B90CC54338B2213762 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		C355847637B44BC68CC39B67 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		C88E3768C25F4C23BF94357C /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		D5C0DD1F61634A9FA2AFE3DA /* Myriad Pro Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; path = "Myriad Pro Bold.ttf"; sourceTree = "<group>"; };
+		D9B6DC72EBCBA323AFE658ED /* Pods-SnapNReview-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapNReview-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-SnapNReview-tvOSTests/Pods-SnapNReview-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E98752E34582BC2540E801D5 /* Pods-SnapNReview-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapNReview-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-SnapNReview-tvOS/Pods-SnapNReview-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		FA30D223F9764B8DAA15D8C5 /* Myriad Pro Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; path = "Myriad Pro Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6B37A945A1DF0A87964ACE /* libPods-SnapNReview-SnapNReviewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5650893C4D29A7A56D99F897 /* libPods-SnapNReview.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86D04A05206EFC587C41984 /* libPods-SnapNReview-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791264D25047D7E0FDFB2319 /* libPods-SnapNReview-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* SnapNReviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* SnapNReviewTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = SnapNReviewTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* SnapNReview */ = {
+			isa = PBXGroup;
+			children = (
+				525E01822719CB21003FA393 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = SnapNReview;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52CF6A682621DD840066DECB /* libFBSDKShareKit.a */,
+				52CF6A662621DD7F0066DECB /* libFBSDKCoreKit.a */,
+				52CF6A602621DD6F0066DECB /* libFBSDKLoginKit.a */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				26EF1BFF4275C11C2ACE3BAB /* libPods-SnapNReview.a */,
+				17421E2659E0BCE8896EA59E /* libPods-SnapNReview-SnapNReviewTests.a */,
+				57754657232932953C1527A0 /* libPods-SnapNReview-tvOS.a */,
+				BEB2BF05438FD387B3EB2443 /* libPods-SnapNReview-tvOSTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		582B186FDE10E899FB033622 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F6D807F19681F943D10744D /* Pods-SnapNReview.debug.xcconfig */,
+				3B3E8F65DDA1F6D86C704C41 /* Pods-SnapNReview.release.xcconfig */,
+				B13D669A142B79F9575DCD55 /* Pods-SnapNReview-SnapNReviewTests.debug.xcconfig */,
+				084D6C834DAF1B73C82BE081 /* Pods-SnapNReview-SnapNReviewTests.release.xcconfig */,
+				E98752E34582BC2540E801D5 /* Pods-SnapNReview-tvOS.debug.xcconfig */,
+				A45CD29A494E539763E7B8F8 /* Pods-SnapNReview-tvOS.release.xcconfig */,
+				D9B6DC72EBCBA323AFE658ED /* Pods-SnapNReview-tvOSTests.debug.xcconfig */,
+				4F929738981B17A816161579 /* Pods-SnapNReview-tvOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				52EFEA9E26A71B5C0056E99B /* Myriad Pro Semibold.ttf */,
+				525E01842719CB2A003FA393 /* main.jsbundle */,
+				13B07FAE1A68108700A75B9A /* SnapNReview */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* SnapNReviewTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				582B186FDE10E899FB033622 /* Pods */,
+				AA0703E6E86541B0BFD33D7E /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* SnapNReview.app */,
+				00E356EE1AD99517003FC87E /* SnapNReviewTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* SnapNReview-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* SnapNReview-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA0703E6E86541B0BFD33D7E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55BAD5004A2F4F66BC189AE0 /* Feather.ttf */,
+				BE9E81560CC24617B3A50999 /* Myriad Pro Black.otf */,
+				525E01C52719DBD4003FA393 /* default.png */,
+				525E01CC2719DBDC003FA393 /* ip12.jpeg */,
+				525E01CA2719DBDC003FA393 /* ip12pro.jpeg */,
+				525E01D12719DBDC003FA393 /* ip12pro1.jpeg */,
+				525E01C82719DBDC003FA393 /* kamera.png */,
+				525E01CF2719DBDC003FA393 /* laptop.png */,
+				525E01CB2719DBDC003FA393 /* microwave.png */,
+				525E01C92719DBDC003FA393 /* ps5.jpeg */,
+				525E01CD2719DBDC003FA393 /* smartwatch.png */,
+				525E01CE2719DBDC003FA393 /* stick.png */,
+				525E01D02719DBDC003FA393 /* user1.jpeg */,
+				525E01C72719DBDC003FA393 /* user2.jpeg */,
+				525E01D22719DBDC003FA393 /* user3.jpeg */,
+				525E01C42719DBD4003FA393 /* logo.png */,
+				525E01C62719DBD5003FA393 /* SnapNReview.png */,
+				525E01A12719DBB7003FA393 /* arrow-right.png */,
+				525E01A52719DBB7003FA393 /* arrow-up-white.png */,
+				525E01C32719DBB8003FA393 /* arrow-up.png */,
+				525E01A72719DBB7003FA393 /* art.png */,
+				525E019F2719DBB7003FA393 /* ask.png */,
+				525E019D2719DBB7003FA393 /* back.png */,
+				525E01942719DBB6003FA393 /* bell-yellow-selected.png */,
+				525E01B12719DBB7003FA393 /* bell-yellow.png */,
+				525E019B2719DBB7003FA393 /* bell.png */,
+				525E01952719DBB6003FA393 /* cam-plus.png */,
+				525E019E2719DBB7003FA393 /* cam-red.png */,
+				525E019C2719DBB7003FA393 /* cam.png */,
+				525E01B72719DBB8003FA393 /* chat.png */,
+				525E01B02719DBB7003FA393 /* check.png */,
+				525E019A2719DBB7003FA393 /* close.png */,
+				525E01AA2719DBB7003FA393 /* electronic.png */,
+				525E01A22719DBB7003FA393 /* eye.png */,
+				525E018E2719DBB6003FA393 /* fb.png */,
+				525E01C22719DBB8003FA393 /* follower_a.png */,
+				525E01972719DBB7003FA393 /* follower.png */,
+				525E01B42719DBB8003FA393 /* following_a.png */,
+				525E01A42719DBB7003FA393 /* following.png */,
+				525E01BE2719DBB8003FA393 /* forward-white.png */,
+				525E01A82719DBB7003FA393 /* forward.png */,
+				525E01C02719DBB8003FA393 /* gadget.png */,
+				525E01BA2719DBB8003FA393 /* gear.png */,
+				525E01902719DBB6003FA393 /* google.png */,
+				525E01B32719DBB8003FA393 /* healthcare.png */,
+				525E01912719DBB6003FA393 /* home.png */,
+				525E01982719DBB7003FA393 /* humburger.png */,
+				525E01B22719DBB7003FA393 /* images.png */,
+				525E01B82719DBB8003FA393 /* keyhole.png */,
+				525E01962719DBB6003FA393 /* loop.png */,
+				525E01B92719DBB8003FA393 /* love-white.png */,
+				525E01B52719DBB8003FA393 /* love.png */,
+				525E01AF2719DBB7003FA393 /* more.png */,
+				525E01C12719DBB8003FA393 /* movie.png */,
+				525E018C2719DBB6003FA393 /* pencil-edit.png */,
+				525E01B62719DBB8003FA393 /* pencil.png */,
+				525E01BC2719DBB8003FA393 /* product_post_a.png */,
+				525E01BD2719DBB8003FA393 /* product_post.png */,
+				525E01AC2719DBB7003FA393 /* product_review_a.png */,
+				525E01A92719DBB7003FA393 /* product_review.png */,
+				525E018D2719DBB6003FA393 /* question_answered_a.png */,
+				525E01A62719DBB7003FA393 /* question_answered.png */,
+				525E01AB2719DBB7003FA393 /* question_post_a.png */,
+				525E01A32719DBB7003FA393 /* question_post.png */,
+				525E01BF2719DBB8003FA393 /* sort-white.png */,
+				525E01A02719DBB7003FA393 /* sort.png */,
+				525E018A2719DBB6003FA393 /* sport.png */,
+				525E01922719DBB6003FA393 /* star-white.png */,
+				525E01992719DBB7003FA393 /* star.png */,
+				525E018B2719DBB6003FA393 /* user_not_found.svg */,
+				525E01AD2719DBB7003FA393 /* user_plus.png */,
+				525E01AE2719DBB7003FA393 /* user-gray.png */,
+				525E018F2719DBB6003FA393 /* user.png */,
+				525E01BB2719DBB8003FA393 /* x_red.png */,
+				525E01932719DBB6003FA393 /* x-sign.png */,
+				D5C0DD1F61634A9FA2AFE3DA /* Myriad Pro Bold.ttf */,
+				5F24CF59AFD14A0EB2984603 /* Myriad Pro Light.otf */,
+				FA30D223F9764B8DAA15D8C5 /* Myriad Pro Regular.ttf */,
+				B6430C0C5D3F4A0591469C86 /* Poppins-Black.ttf */,
+				C88E3768C25F4C23BF94357C /* Poppins-BlackItalic.ttf */,
+				BECA12B90CC54338B2213762 /* Poppins-Bold.ttf */,
+				187944D916F6410AB470EAD2 /* Poppins-BoldItalic.ttf */,
+				0B63B52AFF6740C69AD9FA90 /* Poppins-ExtraBold.ttf */,
+				AACA826DCD37499B973D0353 /* Poppins-ExtraBoldItalic.ttf */,
+				3D4DFBDEA6F747CAA286EC51 /* Poppins-ExtraLight.ttf */,
+				7990C361BB974FEEBA33555F /* Poppins-ExtraLightItalic.ttf */,
+				C355847637B44BC68CC39B67 /* Poppins-Italic.ttf */,
+				87C3D91E398A43E18C055A6F /* Poppins-Light.ttf */,
+				2A2FAF76360543B894B72BF4 /* Poppins-LightItalic.ttf */,
+				61A4032A61CF40A787087E3D /* Poppins-Medium.ttf */,
+				5776997DCBC4456689E046B2 /* Poppins-MediumItalic.ttf */,
+				36B3FCBF00E44C90AA8134C1 /* Poppins-Regular.ttf */,
+				600EF5035E0A4EE9B412266E /* Poppins-SemiBold.ttf */,
+				8946FB449FEC4864A3FED825 /* Poppins-SemiBoldItalic.ttf */,
+				44C0840EDB9E48F0B246F657 /* Poppins-Thin.ttf */,
+				92221F76A3B54BB7B12FDD2F /* Poppins-ThinItalic.ttf */,
+			);
+			name = Resources;
+			path = ../assets/fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* SnapNReviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SnapNReviewTests" */;
+			buildPhases = (
+				9C3EBED47FE1E50A333E2BFE /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				E5D81AA237145D8F003FF303 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = SnapNReviewTests;
+			productName = SnapNReviewTests;
+			productReference = 00E356EE1AD99517003FC87E /* SnapNReviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* SnapNReview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SnapNReview" */;
+			buildPhases = (
+				10B84D2FED2F10017F629D90 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				05E208CD291602AD71885AC4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapNReview;
+			productName = SnapNReview;
+			productReference = 13B07F961A680F5B00A75B9A /* SnapNReview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* SnapNReview-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SnapNReview-tvOS" */;
+			buildPhases = (
+				D425D9C7FBBBB4AC00877DFC /* [CP] Check Pods Manifest.lock */,
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SnapNReview-tvOS";
+			productName = "SnapNReview-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* SnapNReview-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* SnapNReview-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SnapNReview-tvOSTests" */;
+			buildPhases = (
+				CE79AD807959B693D10EA4CA /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "SnapNReview-tvOSTests";
+			productName = "SnapNReview-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* SnapNReview-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1240;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SnapNReview" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* SnapNReview */,
+				00E356ED1AD99517003FC87E /* SnapNReviewTests */,
+				2D02E47A1E0B4A5D006451C7 /* SnapNReview-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* SnapNReview-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EFEAA126A71B5C0056E99B /* Myriad Pro Semibold.ttf in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				525E01852719CB2A003FA393 /* main.jsbundle in Resources */,
+				DEEFABB6D3224A4EBC10C2D0 /* Myriad Pro Black.otf in Resources */,
+				F24196C755D045AFA6272736 /* Myriad Pro Bold.ttf in Resources */,
+				6A16556A5D85406D8CE0FFF3 /* Myriad Pro Light.otf in Resources */,
+				835157F8F1C14B68A1740FC1 /* Myriad Pro Regular.ttf in Resources */,
+				E9870374F73942389F4273B9 /* Poppins-Black.ttf in Resources */,
+				34B5D953AE524AB49C9C8C9F /* Poppins-BlackItalic.ttf in Resources */,
+				8ED7EAB9565C43EB93E6AAC7 /* Poppins-Bold.ttf in Resources */,
+				4D49B1640FCD486897208A8F /* Poppins-BoldItalic.ttf in Resources */,
+				525E01832719CB21003FA393 /* main.jsbundle in Resources */,
+				E46BD1927AB144A1AFF49003 /* Poppins-ExtraBold.ttf in Resources */,
+				79258B6394904FE0BD774793 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				D92955FE9A904531A17A6208 /* Poppins-ExtraLight.ttf in Resources */,
+				C3EC0B973C564A7EB8822E4E /* Poppins-ExtraLightItalic.ttf in Resources */,
+				AABD87D42C304238AD5CCE4F /* Poppins-Italic.ttf in Resources */,
+				9667CCFD7888402889C5D37B /* Poppins-Light.ttf in Resources */,
+				A7C568FD39A74B06B4C800B1 /* Poppins-LightItalic.ttf in Resources */,
+				F5F32B3257EF44FAA12E5C3B /* Poppins-Medium.ttf in Resources */,
+				03B4D771D288459FAA737060 /* Poppins-MediumItalic.ttf in Resources */,
+				8F820CA9273A48D3B1C038A3 /* Poppins-Regular.ttf in Resources */,
+				089F95A01AA149F6B6B38F4A /* Poppins-SemiBold.ttf in Resources */,
+				953859B7BC0F4271AF526700 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				F4271325AEF5423A9B04497E /* Poppins-Thin.ttf in Resources */,
+				926ED66F25DE4926872F9BDB /* Poppins-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		05E208CD291602AD71885AC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapNReview/Pods-SnapNReview-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapNReview/Pods-SnapNReview-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnapNReview/Pods-SnapNReview-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		10B84D2FED2F10017F629D90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnapNReview-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		9C3EBED47FE1E50A333E2BFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnapNReview-SnapNReviewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE79AD807959B693D10EA4CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnapNReview-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D425D9C7FBBBB4AC00877DFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnapNReview-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5D81AA237145D8F003FF303 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapNReview-SnapNReviewTests/Pods-SnapNReview-SnapNReviewTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapNReview-SnapNReviewTests/Pods-SnapNReview-SnapNReviewTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnapNReview-SnapNReviewTests/Pods-SnapNReview-SnapNReviewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* SnapNReviewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* SnapNReviewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* SnapNReview */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* SnapNReview-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B13D669A142B79F9575DCD55 /* Pods-SnapNReview-SnapNReviewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SnapNReviewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapNReview.app/SnapNReview";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 084D6C834DAF1B73C82BE081 /* Pods-SnapNReview-SnapNReviewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = SnapNReviewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapNReview.app/SnapNReview";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F6D807F19681F943D10744D /* Pods-SnapNReview.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_TEAM = C764XV7G2X;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = SnapNReview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sg.com.SnapNReview;
+				PRODUCT_NAME = SnapNReview;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "File-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B3E8F65DDA1F6D86C704C41 /* Pods-SnapNReview.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_TEAM = C764XV7G2X;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = SnapNReview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sg.com.SnapNReview;
+				PRODUCT_NAME = SnapNReview;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "File-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E98752E34582BC2540E801D5 /* Pods-SnapNReview-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "SnapNReview-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.SnapNReview-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A45CD29A494E539763E7B8F8 /* Pods-SnapNReview-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "SnapNReview-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.SnapNReview-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9B6DC72EBCBA323AFE658ED /* Pods-SnapNReview-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "SnapNReview-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.SnapNReview-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapNReview-tvOS.app/SnapNReview-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F929738981B17A816161579 /* Pods-SnapNReview-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "SnapNReview-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.SnapNReview-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapNReview-tvOS.app/SnapNReview-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development: snapnreview@gmail.com (4N8U2T85A5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = "\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development: snapnreview@gmail.com (4N8U2T85A5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = "\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SnapNReviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SnapNReview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SnapNReview-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SnapNReview-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SnapNReview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
